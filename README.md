@@ -8,6 +8,7 @@
 Fillit is a project that lets you discover and familiarize yourself with a recurring problematic in programming : searching for the optimal solution among a huge set of possibilities. In this particular project, you will be charged of creating an algorithm which fits some Tetriminos together into the smallest possible square.
 
 A Tetriminos is a 4-blocks geometric figure that most of you might knows thanks to the popular game Tetris.
+
 ![Screen Shot 2021-03-02 at 12 23 00 AM](https://user-images.githubusercontent.com/52679439/109619422-9d4f7480-7aed-11eb-970c-9c9e65bc80d9.png)
 
 
