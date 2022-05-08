@@ -27,8 +27,6 @@ A Tetrimino is made up of 4 characters(#) with the empty space represented by a 
 4. Each block of a Tetriminos must be in contact with at least one other block on any of its 4 sides.
 5. Tetriminos occupy only 4 of 16 available boxes, it is possible to describe the same Tetrimino in multiple ways. However, the rotation of a Tetrimino    describes a different Tetrimino from the original in the case of this project.
 
-In this project, my roles were to verify and validate if the input had passed, saved the data that is read from the text file to the right data structure, prevent all possible error cases from happening and to free all the memory that were dynamically used during run time at the end.
-Each input was composed of 16 ‘.’ characters, 4 ‘#’ characters and new line characters at the end of each line. Additionally, It should be composed by the Tetriminoes blocks and the maximum blocks should be within 25. If it’s not validate input, It returns an error and ends. To verify if it was a valid block was one of the hardest challenges. After writing a bunch of simulations, I came up with the idea to count the total number of side touches. Valid Tetriminoes blocks have a total of 6 sides touching between each block. Then I had to decide which data structure I should use. I tried with a 3d array and failed many times. Then I switched to ‘node linked list’ because it is easy to add new elements dynamically. I read the text file with the previous project ‘get_next_file’ and saved each line of block to 2d array.
 
 ## Steps
 
