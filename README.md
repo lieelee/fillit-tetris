@@ -33,6 +33,7 @@ Each input was composed of 16 ‘.’ characters, 4 ‘#’ characters and new l
 ## Steps
 
 1. Read an input file using a [get_next_line](https://github.com/lieelee/get_next_line). As It reads an input file, It saves the input Tetriminos into the string(char *tet) inside of the structure(t_tetris). 
+
 ![Screen Shot 2022-05-08 at 12 57 32 AM](https://user-images.githubusercontent.com/104736314/167288826-ec0c2e32-f2ad-4a75-85fc-3e7bfad92782.png)
 
 2. Check the Input validation
