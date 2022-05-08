@@ -40,7 +40,7 @@ Each input was composed of 16 ‘.’ characters, 4 ‘#’ characters and new l
 
 <img width="1001" alt="Screen Shot 2022-05-08 at 12 24 43 AM" src="https://user-images.githubusercontent.com/104736314/167288838-f749d840-aafd-452d-8d01-5b0ff749d4d0.png">
 
-Other than valid input rules above, there is one more thing to consider. It has to be a valid Tetriminos figure. I used the “Count Method” that is mentioned in [Beth Nenniger's blog post.](https://medium.com/@bethnenniger/fillit-solving-for-the-smallest-square-of-tetrominos-c6316004f909) ). A valid piece has either 6 or 8 adjacencies. 
+Other than valid input rules above, there is one more thing to consider. It has to be a valid Tetriminos figure. I used the “Count Method” that is mentioned in [Beth Nenniger's blog post.](https://medium.com/@bethnenniger/fillit-solving-for-the-smallest-square-of-tetrominos-c6316004f909). A valid piece has either 6 or 8 adjacencies. 
 
 3. Find the smallest square. 
 
@@ -51,6 +51,7 @@ In this project, my responsibilities included
 2. verifying and validating the input2. 
 3. preventing all conceivable error scenarios
 4. freeing any dynamically used memory at the end.
+
 Each line included 16 '.' characters, four '#' characters, and a new line character at the end of each line. It should also be made up of Tetriminoes blocks, with a maximum of 25 possible combinations. It returns an error and terminates if the input is not validated. One of the most difficult tasks was determining whether or not the block was genuine. I decided to use the Count Method after creating a handful of simulations. Tetriminoes blocks that are valid have a total of either 6 or 8 sides that touch. After that, I had to choose which data structure to employ. I started with a 3d array and kept failing. Then I switched to a 'linked list,' which allows me to dynamically add new elements. 
 
 
