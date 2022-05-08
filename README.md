@@ -46,3 +46,11 @@ Other than valid input rules above, there is one more thing to consider. It has 
 
 Recursive backtracking method is utilized for the solution. 
 
+In this project, my responsibilities included 
+1. saving the data read from the text file to the correct data structure.
+2. verifying and validating the input2. 
+3. preventing all conceivable error scenarios
+4. freeing any dynamically used memory at the end.
+Each line included 16 '.' characters, four '#' characters, and a new line character at the end of each line. It should also be made up of Tetriminoes blocks, with a maximum of 25 possible combinations. It returns an error and terminates if the input is not validated. One of the most difficult tasks was determining whether or not the block was genuine. I decided to use the Count Method after creating a handful of simulations. Tetriminoes blocks that are valid have a total of either 6 or 8 sides that touch. After that, I had to choose which data structure to employ. I started with a 3d array and kept failing. Then I switched to a 'linked list,' which allows me to dynamically add new elements. 
+
+
